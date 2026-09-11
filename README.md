@@ -18,3 +18,11 @@ The visual layout uses **glassmorphism** (semi-transparent blurred overlays), cl
     *   `--font-cursive`: Playfair Display / Great Vibes (via Google Fonts)
     *   `--font-sans`: Inter / Montserrat for clean, high-readability details
 *   **Deco elements**: Elegant white floral roses as floating background accents and frame ornaments.
+
+### 🔄 Future Theme Switching
+To answer the question about future customization, the design is structured around **CSS Custom Properties (Variables)** at the top of [style.css](file:///d:/Projects/kadkahwin/style.css). Changing the theme in the future is as easy as:
+1.  Changing the color hex variables and font links in [style.css](file:///d:/Projects/kadkahwin/style.css).
+2.  Replacing the background image asset files (`floral_bg.png` or `cover_bg.png`) in the `/assets/images/` directory with the new design's assets.
+No structural HTML edits will be required.
+
+---
