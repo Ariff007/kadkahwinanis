@@ -26,3 +26,18 @@ To answer the question about future customization, the design is structured arou
 No structural HTML edits will be required.
 
 ---
+
+## 🛠️ Technical Stack
+
+*   **HTML5**: Semantic web structure.
+*   **CSS3**: Vanilla CSS for custom animations, scroll effects, and custom colors.
+*   **Bootstrap 5.3 (CDN)**: Utilized for responsive layout scaffolding (`container`, `row`, `col`), typography scaling, flex layout helpers, and built-in components.
+*   **FontAwesome 6 (CDN)**: Premium vector icons.
+*   **Vanilla JavaScript (ES6+)**: Custom handlers for:
+    *   Cover fade-out
+    *   Background music play/pause toggle
+    *   Countdown timer
+    *   Bottom navigation button scrolling and modal popups
+*   **RSVP Backend**: Form submission integration with **Firaform API**.
+
+---
