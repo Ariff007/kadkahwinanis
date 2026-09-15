@@ -41,3 +41,15 @@ No structural HTML edits will be required.
 *   **RSVP Backend**: Form submission integration with **Firaform API**.
 
 ---
+
+## 🗺️ Page Flow & Sections
+
+```mermaid
+flowchart TD
+    A[Welcome Cover Page / Buka Screen] -->|Click 'Buka'| B(Fade out Cover & Start Background Music)
+    B --> C[Main Content Container]
+    C --> D[Section 1: Invitation & Salutation]
+    C --> E[Section 2: Couple Names & Event Details]
+    C --> F[Section 3: Interactive Countdown Timer]
+    C --> G[Section 4: RSVP Submission Form]
+```
