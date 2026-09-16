@@ -53,3 +53,11 @@ flowchart TD
     C --> F[Section 3: Interactive Countdown Timer]
     C --> G[Section 4: RSVP Submission Form]
 ```
+
+### 1. The Welcome Cover ("Buka" Transition)
+*   **Layout**: Full-screen overlay (`100vh`/`100vw`) styled with a subtle blueish-white gradient and soft gold floral elements.
+*   **Content**: Ariff & Anis names, date of wedding, address, and a floating **"BUKA" (Open)** button.
+*   **Interactivity**:
+    *   Clicking **"BUKA"** starts the background instrumental audio.
+    *   Animate-out: The overlay fades out and scales down smoothly using CSS transitions.
+    *   Enables scrolling for the rest of the page.
