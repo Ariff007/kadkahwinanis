@@ -61,3 +61,9 @@ flowchart TD
     *   Clicking **"BUKA"** starts the background instrumental audio.
     *   Animate-out: The overlay fades out and scales down smoothly using CSS transitions.
     *   Enables scrolling for the rest of the page.
+
+### 2. Invitation Text & Quote Section
+*   **Salutation**: A warm Islamic/generic welcoming text ("Assalamualaikum w.b.t..." and "Dengan penuh kesyukuran...").
+*   **Bride & Groom Details**: Elegant cursive names with a hint of gold styling.
+*   **Venue & Date Details**: Date, Islamic Calendar date, time, and full address.
+*   **Tentative Program**: A clean, elegant schedule outline showing arrival times, bride/groom entrance, meals, cake cutting, and photography sessions.
