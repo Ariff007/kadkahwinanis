@@ -67,3 +67,7 @@ flowchart TD
 *   **Bride & Groom Details**: Elegant cursive names with a hint of gold styling.
 *   **Venue & Date Details**: Date, Islamic Calendar date, time, and full address.
 *   **Tentative Program**: A clean, elegant schedule outline showing arrival times, bride/groom entrance, meals, cake cutting, and photography sessions.
+
+### 3. Interactive Countdown Timer
+*   **Layout**: Floating countdown panels showing **Days | Hours | Mins | Secs**.
+*   **Logic**: Real-time decrementing countdown until the wedding date.
