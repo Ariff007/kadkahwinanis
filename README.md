@@ -71,3 +71,13 @@ flowchart TD
 ### 3. Interactive Countdown Timer
 *   **Layout**: Floating countdown panels showing **Days | Hours | Mins | Secs**.
 *   **Logic**: Real-time decrementing countdown until the wedding date.
+
+### 4. RSVP Section
+*   **Form fields**:
+    *   Full Name (*Nama*)
+    *   Attendance (*Kehadiran*: Yes/No/Maybe)
+    *   Number of Pax (*Bilangan Tetamu*)
+    *   Wishes/Message (*Ucapan*)
+*   **Action**: Form posts data asynchronously (via JavaScript `fetch`) to the **Firaform API Endpoint** and displays a custom thank-you modal.
+
+---
