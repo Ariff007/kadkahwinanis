@@ -81,3 +81,11 @@ flowchart TD
 *   **Action**: Form posts data asynchronously (via JavaScript `fetch`) to the **Firaform API Endpoint** and displays a custom thank-you modal.
 
 ---
+
+## ⚓ Bottom Navigation Bar & Modal System
+
+A fixed bottom navigation bar will display **5 interactive buttons** optimized for mobile thumb-reach:
+
+| Button | Action | Modal / Popup Behavior |
+| :--- | :--- | :--- |
+| **1. Hubungi** | Pops up Bottom Modal | Shows 3 contact persons. Each contact has two buttons: **Direct Call** (`tel:`) and **WhatsApp** (`https://wa.me/`). |
