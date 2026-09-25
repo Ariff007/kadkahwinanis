@@ -89,3 +89,5 @@ A fixed bottom navigation bar will display **5 interactive buttons** optimized f
 | Button | Action | Modal / Popup Behavior |
 | :--- | :--- | :--- |
 | **1. Hubungi** | Pops up Bottom Modal | Shows 3 contact persons. Each contact has two buttons: **Direct Call** (`tel:`) and **WhatsApp** (`https://wa.me/`). |
+| **2. Lokasi** | Pops up Bottom Modal | Displays two navigation options: **Waze Link** and **Google Maps Link**. |
+| **3. RSVP** | Smooth Scroll | **Main Action Button**: Located in the center. Designed to be larger and styled as a raised, floating circular button for maximum visibility. Smoothly scrolls the viewport to the RSVP form section. |
