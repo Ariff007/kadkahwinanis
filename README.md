@@ -93,3 +93,6 @@ A fixed bottom navigation bar will display **5 interactive buttons** optimized f
 | **3. RSVP** | Smooth Scroll | **Main Action Button**: Located in the center. Designed to be larger and styled as a raised, floating circular button for maximum visibility. Smoothly scrolls the viewport to the RSVP form section. |
 | **4. Kalendar** | Pops up Bottom Modal | Displays calendar date with buttons to add the event to **Google Calendar** and **Apple Calendar** (ICS file). |
 | **5. Sumbangan** | Pops up Bottom Modal | Shows a notice overlay first. Once dismissed, reveals the Maybank QR code. Includes a **Download QR** button. |
+
+### Details for the "Sumbangan" Modal Notice:
+1.  When clicked, a warning/notice overlay appears **first**.
