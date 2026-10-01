@@ -96,3 +96,5 @@ A fixed bottom navigation bar will display **5 interactive buttons** optimized f
 
 ### Details for the "Sumbangan" Modal Notice:
 1.  When clicked, a warning/notice overlay appears **first**.
+2.  The user must click an **"X" (Dismiss)** button or **"Teruskan"** button to reveal the actual QR code.
+3.  **Disclaimer Message**: *"Sumbangan ini tidak wajib dan ikhlas semata-mata. Disediakan khusus untuk kemudahan cashless sahaja (terutamanya untuk rakan-rakan Gen Z)."*
