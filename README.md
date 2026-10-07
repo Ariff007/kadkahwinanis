@@ -108,3 +108,4 @@ A fixed bottom navigation bar will display **5 interactive buttons** optimized f
 d:/Projects/kadkahwinanis/
 ├── README.md                      # Project specifications (this file)
 ├── index.html                     # Main digital card HTML document
+├── style.css                      # Custom theme styling & glassmorphism components
