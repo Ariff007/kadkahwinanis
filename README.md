@@ -109,3 +109,4 @@ d:/Projects/kadkahwinanis/
 ├── README.md                      # Project specifications (this file)
 ├── index.html                     # Main digital card HTML document
 ├── style.css                      # Custom theme styling & glassmorphism components
+├── app.js                         # Custom JS logic (audio, timer, forms, modal states)
