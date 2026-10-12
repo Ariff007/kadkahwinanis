@@ -110,3 +110,5 @@ d:/Projects/kadkahwinanis/
 ├── index.html                     # Main digital card HTML document
 ├── style.css                      # Custom theme styling & glassmorphism components
 ├── app.js                         # Custom JS logic (audio, timer, forms, modal states)
+└── assets/                        # Assets directory
+    ├── audio/
