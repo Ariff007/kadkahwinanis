@@ -112,4 +112,5 @@ d:/Projects/kadkahwinanis/
 ├── app.js                         # Custom JS logic (audio, timer, forms, modal states)
 └── assets/                        # Assets directory
     ├── audio/
-        │   └── background_music.mp3   # Background instrumental track
+    │   └── background_music.mp3   # Background instrumental track
+    ├── images/
