@@ -114,3 +114,4 @@ d:/Projects/kadkahwinanis/
     ├── audio/
     │   └── background_music.mp3   # Background instrumental track
     ├── images/
+    │   ├── qr_code.png            # Maybank DuitNow QR Code image
