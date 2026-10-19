@@ -115,3 +115,4 @@ d:/Projects/kadkahwinanis/
     │   └── background_music.mp3   # Background instrumental track
     ├── images/
     │   ├── qr_code.png            # Maybank DuitNow QR Code image
+    │   ├── floral_bg.png          # Aesthetic floral rose decorations
