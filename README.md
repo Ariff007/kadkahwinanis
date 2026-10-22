@@ -117,3 +117,4 @@ d:/Projects/kadkahwinanis/
     │   ├── qr_code.png            # Maybank DuitNow QR Code image
     │   ├── floral_bg.png          # Aesthetic floral rose decorations
     │   └── passport_photo.png     # Uploaded passport photo
+    └── favicon.ico                # Page favicon
