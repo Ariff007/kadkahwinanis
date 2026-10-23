@@ -118,3 +118,4 @@ d:/Projects/kadkahwinanis/
     │   ├── floral_bg.png          # Aesthetic floral rose decorations
     │   └── passport_photo.png     # Uploaded passport photo
     └── favicon.ico                # Page favicon
+```
