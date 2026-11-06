@@ -175,6 +175,7 @@ function initSumbanganModal() {
   const btnRevealQr = document.getElementById('btn-reveal-qr');
   const pagination = document.getElementById('sumbangan-pagination');
   const nextBtn = document.getElementById('sumbangan-next-btn');
+  const backBtn = document.getElementById('sumbangan-back-btn');
   const dots = document.querySelectorAll('.sumbangan-dot');
 
   if (!sumbanganModalEl) return;
@@ -188,6 +189,12 @@ function initSumbanganModal() {
     // Hide pagination footer on QR page
     pagination.classList.toggle('d-none', page === 2);
 
+    // Back button: visible only on page 1
+    backBtn?.classList.toggle('invisible', page !== 1);
+
+    // Next button: visible only on page 0
+    nextBtn?.classList.toggle('invisible', page !== 0);
+
     // Update dots (2 dots for pages 0 & 1)
     dots.forEach(dot => dot.classList.remove('active'));
     if (page < 2) dots[page]?.classList.add('active');
@@ -198,6 +205,9 @@ function initSumbanganModal() {
 
   // Next arrow: gift -> notice
   nextBtn?.addEventListener('click', () => showPage(1));
+
+  // Back arrow: notice -> gift
+  backBtn?.addEventListener('click', () => showPage(0));
 
   // "Teruskan ke QR" button: notice -> QR
   btnRevealQr?.addEventListener('click', () => showPage(2));
@@ -271,7 +281,7 @@ function initRSVPForm() {
       timestamp: new Date().toISOString()
     };
 
-    const firaformEndpoint = 'https://a.firaform.com/api/f/rplc5YfVD6AbZp0qkcB5r';
+    const firaformEndpoint = 'https://a.firaform.com/api/f/b7iG4At2jQiqgjJhQdzle';
 
     try {
       // Post to Firaform API
@@ -291,7 +301,7 @@ function initRSVPForm() {
       localStorage.setItem(RSVP_STORAGE_KEY, JSON.stringify({ submitted: true, data: formData }));
 
       // Show success feedback and lock form
-      showRSVPAlert('success', 'Terima kasih! RSVP anda telah berjaya dihantar.');
+      showRSVPAlert('success', 'Terima kasih! RSVP anda telah dihantar.');
       lockRSVPForm(form);
     } catch (error) {
       console.error('Firaform submission error:', error);
